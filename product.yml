@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    reactive:
+      max-chunk-size: '1024'
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bank_database
+server:
+  servlet:
+    context-path: /bootcamp-bc30-bank-seman1/api
